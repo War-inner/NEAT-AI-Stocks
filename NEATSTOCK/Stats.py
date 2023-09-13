@@ -1,12 +1,4 @@
-# Kyle Wariner
-# CS 1400 - 001
-# Assignment ??
-
-# Kyle Wariner
-# CS 1400 - 001
-# Assignment ??
 from math import sqrt
-
 
 class Stats:
     def __init__(self, dataset):
@@ -36,7 +28,6 @@ class Stats:
         mean = self.getMean()
         dataSet = self.getData()
         totalDeviation = 0
-
         for datum in range(len(dataSet)):
             deviation = self.getDatum(datum) - mean
             newDev = deviation ** 2
